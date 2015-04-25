@@ -48,7 +48,7 @@ In `hobbitlaunch.cfg` (Hobbit)
     ENVFILE $HOBBITCLIENTHOME/etc/hobbitclient.cfg
     CMD $HOBBITCLIENTHOME/ext/nginx.pl
     LOGFILE $HOBBITCLIENTHOME/logs/hobbit-nginx.log
-    INTERVAL 3m
+    INTERVAL 1m
 ```
 or in `clientlaunch.cfg` (Xymon)
 ```
@@ -56,7 +56,7 @@ or in `clientlaunch.cfg` (Xymon)
     ENVFILE $XYMONCLIENTHOME/etc/xymonclient.cfg
     CMD $XYMONCLIENTHOME/ext/xymon-nginx.pl
     LOGFILE $XYMONCLIENTLOGS/xymon-nginx.log
-    INTERVAL 3m
+    INTERVAL 1m
 ```
 
 + Append or include the provided file to `graphs.cfg`.
