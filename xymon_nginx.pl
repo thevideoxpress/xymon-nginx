@@ -24,7 +24,7 @@ sub do_the_work {
 
 my $values = do_the_work();
 
-my $host = $ENV{MACHINEDOTS};
+my $host = $ENV{CLIENTHOSTNAME};
 my $report_date = `/bin/date`;
 my $color = 'red';
 my $service = 'nginx';
