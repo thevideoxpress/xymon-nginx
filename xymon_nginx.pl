@@ -5,7 +5,7 @@ use strict;
 use LWP::Simple;
 use Data::Dumper;
 
-use constant NGINX_STATUS_PAGE => '"http://10.0.7.10:82/"';
+use constant NGINX_STATUS_PAGE => '"http://test.local/nginx_status"';
 
 use constant XYMON_WWW_ROOT => '';
 sub get_graph_html {
