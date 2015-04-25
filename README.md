@@ -54,7 +54,7 @@ or in `clientlaunch.cfg` (Xymon)
 ```
 [nginx]
     ENVFILE $XYMONCLIENTHOME/etc/xymonclient.cfg
-    CMD $XYMONCLIENTHOME/ext/nginx.pl
+    CMD $XYMONCLIENTHOME/ext/xymon-nginx.pl
     LOGFILE $XYMONCLIENTLOGS/xymon-nginx.log
     INTERVAL 3m
 ```
